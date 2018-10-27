@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #fc5c65 !important;
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: 'Mali', cursive;
+}
+
+.btn {
+    background-color: #f95e68 !important;
+    border-color: #f95e68 !important;
+    font-family: 'Mali', cursive;
+}
+
+.btn:hover {
+    opacity: .5;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
