@@ -1,5 +1,5 @@
 {
-  "name": "nyt-react-app",
+  "name": "nyt-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
-    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"cd client && yarn build\""
   },
   "eslintConfig": {
     "extends": "react-app"
